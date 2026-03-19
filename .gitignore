@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# FAISS index files (auto-generated, user-specific)
+Backend/vector_store/data/*.index
+Backend/vector_store/data/*.json
+
+# Node
+Frontend/node_modules/
+Frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+.env
